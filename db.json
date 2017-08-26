@@ -1,6 +1,6 @@
 {
   "posts": [
-    { "id": 0, "title": "", "body": "", "categories": [] },
+    { "id": 0, "title": "", "body": "", "categories": [] }
   ],
   "items": [
     { "id": 1, "body": "some comment", "postId": 1 },
