@@ -1,12 +1,3 @@
 {
-  "posts": [
-    { "id": 0, "title": "", "body": "", "categories": [] }
-  ],
-  "items": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "ricardo"
-  }
+  
 }
