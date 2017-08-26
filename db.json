@@ -3,7 +3,10 @@
     {
       "title": "some title",
       "content": "Description Pub",
-      "categories": ["sports", "other"]
+      "categories": [
+          "sports",
+          "other"
+      ]
     }
   ]
 }
