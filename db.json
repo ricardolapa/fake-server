@@ -1,40 +1,14 @@
 {
-    "fields": [
-        {
-            "type": "text",
-            "value": "",
-            "name": "empresa",
-            "label": "Empresa/Organização",
-            "placeholder": "Empresa/Organização",
-            "order": 2,
-            "is_required": true
-        },
-        {
-            "type": "text",
-            "value": "",
-            "name": "nome",
-            "label": "Nome",
-            "placeholder": "Nome",
-            "order": 1,
-            "is_required": true
-        },
-        {
-            "type": "text",
-            "value": "",
-            "name": "cargo",
-            "label": "Cargo",
-            "placeholder": "Cargo",
-            "order": 3,
-            "is_required": true
-        },
-        {
-            "type": "text",
-            "value": "",
-            "name": "morada",
-            "label": "Morada",
-            "placeholder": "Morada",
-            "order": 4,
-            "is_required": true
-        }
-    ]
+  "items": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "fields": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "nome": {
+    "name": "ricardo"
+  }
 }
