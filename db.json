@@ -35,6 +35,6 @@
             "placeholder": "Morada",
             "order": 4,
             "is_required": true
-        },
+        }
     ]
 }
