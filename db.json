@@ -1,157 +1,161 @@
 {
-    "name": "Details",
-    "columns": [
-        {
-            "fields": [
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "empresa",
-                    "label": "Empresa/Organização",
-                    "placeholder": "Empresa/Organização",
-                    "order": 2,
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "nome",
-                    "label": "Nome",
-                    "placeholder": "Nome",
-                    "order": 1,
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "cargo",
-                    "label": "Cargo",
-                    "placeholder": "Cargo",
-                    "order": 3,
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "morada",
-                    "label": "Morada",
-                    "placeholder": "Morada",
-                    "order": 4,
-                    "is_required": true
-                },
-            ]
-        },
-        {
-            "fields": [
-                {
-                    "type": "select",
-                    "value": "",
-                    "name": "tipoEmpresa",
-                    "label": "Tipo de Empresa",
-                    "order": 1,
-                    "options": [
-                        "",
-                        "Associação",
-                        "Agência",
-                        "Universidade",
-                    ],
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "apelido",
-                    "label": "Apelido",
-                    "placeholder": "Apelido",
-                    "order": 2,
-                    "is_required": true
-                },
-                {
-                    "type": "select",
-                    "value": "",
-                    "name": "pais",
-                    "label": "País",
-                    "order": 3,
-                    "options": [
-                        "",
-                        "Portugal",
-                        "Espanha",
-                        "França",
-                    ],
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "telefone",
-                    "label": "Telefone",
-                    "placeholder": "Telefone",
-                    "order": 4,
-                    "is_required": true
-                },
-            ],
-        },
-        {
-            "fields": [
-                {
-                    "type": "email",
-                    "value": "",
-                    "name": "email",
-                    "label": "Email",
-                    "placeholder": "Email",
-                    "order": 1,
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "site",
-                    "label": "Site",
-                    "placeholder": "Site",
-                    "order": 2,
-                    "is_required": true
-                },
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "tlm",
-                    "label": "Telemóvel",
-                    "placeholder": "Telemóvel",
-                    "order": 3,
-                    "is_required": true
-                },
-            ],
-        },
-    ],
-    "name": "Hotel",
-    "columns": [
-        {
-            "fields": [
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "other",
-                    "label": "other",
-                    "placeholder": "Enter your Name",
-                    "order": 1,
-                    "options": [],
-                    "is_required": true
-                },
-            ],
-        },
-        {
-            "fields": [
-                {
-                    "type": "text",
-                    "value": "",
-                    "name": "other",
-                    "label": "other",
-                    "placeholder": "Enter your Name",
-                    "order": 1,
-                    "options": [],
-                    "is_required": true
-                },
-            ],
-        },
-    ]
+    {
+        "name": "Details",
+        "columns": [
+            {
+                "fields": [
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "empresa",
+                        "label": "Empresa/Organização",
+                        "placeholder": "Empresa/Organização",
+                        "order": 2,
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "nome",
+                        "label": "Nome",
+                        "placeholder": "Nome",
+                        "order": 1,
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "cargo",
+                        "label": "Cargo",
+                        "placeholder": "Cargo",
+                        "order": 3,
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "morada",
+                        "label": "Morada",
+                        "placeholder": "Morada",
+                        "order": 4,
+                        "is_required": true
+                    },
+                ]
+            },
+            {
+                "fields": [
+                    {
+                        "type": "select",
+                        "value": "",
+                        "name": "tipoEmpresa",
+                        "label": "Tipo de Empresa",
+                        "order": 1,
+                        "options": [
+                            "",
+                            "Associação",
+                            "Agência",
+                            "Universidade",
+                        ],
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "apelido",
+                        "label": "Apelido",
+                        "placeholder": "Apelido",
+                        "order": 2,
+                        "is_required": true
+                    },
+                    {
+                        "type": "select",
+                        "value": "",
+                        "name": "pais",
+                        "label": "País",
+                        "order": 3,
+                        "options": [
+                            "",
+                            "Portugal",
+                            "Espanha",
+                            "França",
+                        ],
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "telefone",
+                        "label": "Telefone",
+                        "placeholder": "Telefone",
+                        "order": 4,
+                        "is_required": true
+                    },
+                ],
+            },
+            {
+                "fields": [
+                    {
+                        "type": "email",
+                        "value": "",
+                        "name": "email",
+                        "label": "Email",
+                        "placeholder": "Email",
+                        "order": 1,
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "site",
+                        "label": "Site",
+                        "placeholder": "Site",
+                        "order": 2,
+                        "is_required": true
+                    },
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "tlm",
+                        "label": "Telemóvel",
+                        "placeholder": "Telemóvel",
+                        "order": 3,
+                        "is_required": true
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        "name": "Hotel",
+        "columns": [
+            {
+                "fields": [
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "other",
+                        "label": "other",
+                        "placeholder": "Enter your Name",
+                        "order": 1,
+                        "options": [],
+                        "is_required": true
+                    },
+                ],
+            },
+            {
+                "fields": [
+                    {
+                        "type": "text",
+                        "value": "",
+                        "name": "other",
+                        "label": "other",
+                        "placeholder": "Enter your Name",
+                        "order": 1,
+                        "options": [],
+                        "is_required": true
+                    },
+                ],
+            },
+        ]
+    }
 }
