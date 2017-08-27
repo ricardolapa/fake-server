@@ -1,14 +1,36 @@
 {
-  "publicacoes": [
-    { "id": 1, "title": "Post 1", "status": false },
-    { "id": 2, "title": "Post 2", "status": false },
-    { "id": 3, "title": "Post 3", "status": false }
+  "posts": [
+    {
+        "id": 1,
+        "title": "Licenciaturas na secretaria para 20 mil terapeutas alternativos?",
+        "content": "Há coisas inacreditáveis que são mesmo verdade e outras que parecem certas mas não resistem a uma análise crítica. O problema da falta de provas da eficácia e segurança das terapias alternativas tem sido ultrapassado com a criação de regimes de excepção por via legislativa: leis em vez de provas.",
+        "categories": [
+            "Desporto",
+            "Política"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "População muito idosa duplicou em duas décadas",
+        "content": "Há mais de 4000 portugueses centenários e o grupo etário com mais de 85 anos duplicou em duas décadas. Os muito idosos acreditam que mantêm capacidades cognitivas, apesar das dificuldades nas actividades do dia-a-dia, revela estudo.",
+        "categories": [
+            "Política"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Como Bannon e a milionária família Mercer construíram a base de poder populista",
+        "content": "Os abastados financiadores do Partido Republicano e aquele que foi o principal conselheiro de Donald Trump até à sua demissão, a 18 de Agosto, colaboraram em pelo menos cinco projectos.",
+        "categories": [
+            "Desporto",
+            "Mundo",
+            "Política"
+        ]
+    }
   ],
-  "items": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "ricardo"
-  }
+  "categories": [
+    { "id": 1, "name": "Desporto" },
+    { "id": 2, "name": "Mundo" },
+    { "id": 3, "name": "Política" }
+  ]
 }
